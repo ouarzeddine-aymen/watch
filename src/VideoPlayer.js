@@ -11,7 +11,7 @@ class VideoPlayer extends React.Component {
         this.mouseInside = false;
 
         this.state = {
-            video_url: "https://bitmovin-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
+            video_url: "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
             lastVolume: 0,
             bannerImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/SMPTE_Color_Bars.svg/1200px-SMPTE_Color_Bars.svg.png",
             tracks: tracks,
